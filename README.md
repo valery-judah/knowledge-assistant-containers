@@ -9,6 +9,7 @@ build context, documentation, and published package.
 | Image | Purpose | Package |
 | --- | --- | --- |
 | [`qwen3-embedding`](images/qwen3-embedding/) | Run `Qwen/Qwen3-Embedding-8B` with vLLM on a RunPod GPU Pod | `ghcr.io/valery-judah/knowledge-assistant-qwen3-embedding:v0.29.0-qwen3-8b` |
+| [`qwen3-embedding-awq`](images/qwen3-embedding-awq/) | Run a 4-bit AWQ build of `Qwen/Qwen3-Embedding-8B` with vLLM on a smaller RunPod GPU Pod | `ghcr.io/valery-judah/knowledge-assistant-qwen3-embedding-awq:v0.29.0-qwen3-8b-awq` |
 
 The repository contains no document corpus, embeddings, model weights, API
 keys, private SSH keys, or application environment files.
