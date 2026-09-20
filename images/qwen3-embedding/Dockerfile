@@ -17,7 +17,7 @@ COPY entrypoint.sh /usr/local/bin/knowledge-assistant-runpod-entrypoint
 RUN chmod 0755 /usr/local/bin/knowledge-assistant-runpod-entrypoint \
     && mkdir -p /run/sshd
 
-LABEL org.opencontainers.image.source="https://github.com/valery-judah/knowledge-assistant-qwen3-embedding-image"
+LABEL org.opencontainers.image.source="https://github.com/valery-judah/knowledge-assistant-containers"
 
 ENV HF_HOME=/workspace/.cache/huggingface \
     VLLM_ENABLE_V1_MULTIPROCESSING=0
